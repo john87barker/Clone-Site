@@ -1,0 +1,14 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+main {
+  flex-grow: 1;
+}
