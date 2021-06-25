@@ -24,7 +24,9 @@ main {
   background-color: rgb(236, 236, 236);
 }
 .box-shadow{box-shadow: 0 5px 5px 2px;}
-
+.bg-white{
+  background-color:rgb(185, 176, 176) ;
+}
 
 .spill {
   bottom: -5em
