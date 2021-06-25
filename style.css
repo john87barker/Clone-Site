@@ -18,12 +18,27 @@ main {
   background-size: cover;
 }
 .card-1{
-  height: 50px;
-  width: 120px;
+  height: 150px;
+  width: 90px;
+  box-shadow: 0 5px 5px 2px;
+  background-color: rgb(236, 236, 236);
+}
+.card-2{
+  height: 30vh;
+  width: 70px;
+  box-shadow: 0 5px 5px 2px;
+  background-color: rgb(236, 236, 236);
+}
+.card-3{
+  height: 40vh;
+  width: 70px;
   box-shadow: 0 5px 5px 2px;
   background-color: rgb(236, 236, 236);
 }
 
 .spill {
-  bottom: -50px
+  bottom: -5em
+}
+.text-lg{
+  font-size: x-large;
 }
