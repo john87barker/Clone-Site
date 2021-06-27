@@ -85,6 +85,7 @@ main {
     margin-left: .5em;
     margin-right: .5em;
     margin-bottom: .5em;
+    border-radius: 5%;
   }
   .center{
     text-align: center;
