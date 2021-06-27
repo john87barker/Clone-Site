@@ -40,10 +40,13 @@ main {
   font-size: x-large;
 }
 .text-review{
-  color:blue ;
+  color:rgb(109, 92, 37) ;
 }
 .text-shadow{
-  text-shadow: -5px 2px 18px black
+  text-shadow: -15px 2px 18px black
+}
+.gold{
+  color: gold;
 }
 .p-size{
   max-width: 220px;
@@ -52,6 +55,10 @@ main {
 }
 .love{
   color: white;
+  
+}
+.center{
+  text-align: left;
 }
 @media only screen and (max-width: 600px) {
   .love {
@@ -67,14 +74,18 @@ main {
   }
   .card {
     bottom: 0;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: .9em;
+    margin-right: .9em;
     margin-bottom: 1em;
+    text-align: center;
   }
   .card-body {
     bottom: 0;
     margin-left: .5em;
     margin-right: .5em;
     margin-bottom: .5em;
+  }
+  .center{
+    text-align: center;
   }
 }
